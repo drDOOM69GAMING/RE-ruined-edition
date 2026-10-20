@@ -5,7 +5,7 @@
 
 # Resident Evil: Ruined Edition
 
-Ink version of the 1997 Resident Evil PC release, built on
+Ink version of the 1996 Resident Evil PC release, built on
 top of the [Resident Evil 1 PC decompilation](https://github.com/ecruells/resident-evil-pc-decomp)
 by ecruells.
 
