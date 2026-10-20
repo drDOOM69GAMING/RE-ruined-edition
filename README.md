@@ -41,7 +41,7 @@ not, the error message is the useful part.
 ## How to play
 
 1. Get your own copy of Resident Evil for PC. The GOG release is the easiest,
-   it is the same data as the 1997 disc.
+   it is the same data as the 1996 disc.
 2. Run the launcher for your platform.
 3. When it asks, point it at the folder that holds your game files. On GOG that
    is the folder with `USA` inside it, for example
