@@ -1,0 +1,8 @@
+# The embedded game payloads are build artifacts - packed in by
+# tools/package_ruined_edition.sh, never committed. build.rs creates empty
+# placeholders for dev builds.
+/embed/ruined_payload.bin.gz
+/embed/ruined_payload.windows.bin.gz
+
+# Cargo build output.
+/target/

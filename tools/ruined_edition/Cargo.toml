@@ -1,0 +1,23 @@
+[package]
+name = "ruined-edition"
+version = "1.0.0"
+edition = "2021"
+description = "Resident Evil Ruined Edition - asset importer and launcher"
+license = "MIT"
+
+[[bin]]
+name = "ruined-edition"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 2
+lto = true
+strip = true
+panic = "abort"
+
+[dependencies]
+flate2 = { version = "1", default-features = false, features = ["rust_backend"] }
+lzma-rust2 = { version = "0.23", default-features = false, features = ["std"] }
+# The window front end. Pinned to the version in the offline crate cache; the
+# import core does not depend on it.
+eframe = { version = "=0.29.1", default-features = false, features = ["glow", "default_fonts", "x11", "wayland"] }
