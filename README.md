@@ -1,3 +1,8 @@
+
+
+
+<img width="1024" height="576" alt="Screenshot_20261020_175903" src="https://github.com/user-attachments/assets/a480a9a0-6cd5-4a9b-a0c0-7207b0ac879b" />
+
 # Resident Evil: Ruined Edition
 
 Ink version of the 1997 Resident Evil PC release, built on
